@@ -1,18 +1,23 @@
 {
-  "name": "aw-cli",
+  "name": "mjhcc-cli",
   "version": "1.0.0",
   "description": "test-cli",
   "main": "index.js",
   "bin": {
     "jkc-cli": "index.js"
   },
+  "private": true,
   "scripts": {
-    "build": "tsc & node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc & node dist/index.js"
   },
+  "homepage": "https://github.com/mjhcc365/aw-test-cli",
   "type": "module",
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "frontend",
+    "cli",
+    "build-tool"
+  ],
+  "author": "mjhcc365",
   "license": "ISC",
   "devDependencies": {
     "chalk": "^5.0.1",
