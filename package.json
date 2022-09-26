@@ -7,15 +7,25 @@
     "jkc-cli": "index.js"
   },
   "scripts": {
+    "build": "tsc & node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "chalk": "^5.0.1",
     "commander": "^9.4.0",
-    "download-git-repo": "^3.0.2"
+    "download-git-repo": "^3.0.2",
+    "kolorist": "^1.6.0",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^18.7.21",
+    "cross-spawn": "^7.0.3"
   }
 }

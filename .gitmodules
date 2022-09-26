@@ -1,0 +1,3 @@
+[submodule "aw-test-template"]
+	path = aw-test-template
+	url = git@github.com:mjhcc365/aw-test-template.git
