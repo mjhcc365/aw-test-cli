@@ -1,0 +1,21 @@
+{
+  "name": "aw-cli",
+  "version": "1.0.0",
+  "description": "test-cli",
+  "main": "index.js",
+  "bin": {
+    "jkc-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2"
+  }
+}
