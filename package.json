@@ -1,12 +1,11 @@
 {
   "name": "mjhcc-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test-cli",
   "main": "index.js",
   "bin": {
     "jkc-cli": "index.js"
   },
-  "private": true,
   "scripts": {
     "build": "tsc & node dist/index.js"
   },
